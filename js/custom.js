@@ -97,12 +97,12 @@ var customScripts = {
     }
 }
 $('document').ready(function () {
-	 $.backstretch([
-    "images/luymai0.jpg",
-    "images/luymai1.jpg",
-    "images/luymai2.jpg",
-    "images/luymai3.jpg"
-  ], {duration: 3000, fade: 1250});
+	//  $.backstretch([
+  //   "images/luymai0.jpg",
+  //   "images/luymai1.jpg",
+  //   "images/luymai2.jpg",
+  //   "images/luymai3.jpg"
+  // ], {duration: 3000, fade: 1250});
 
     customScripts.init();
 	$('#events .col-md-3, #features, #aboutUs, #clients, #portfolio, #plans, #contactUs .parlex-back').css('opacity','0');

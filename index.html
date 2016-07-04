@@ -23,6 +23,7 @@
 <link rel="stylesheet" href="css/bootstrap.min.css" />
 <link href="css/animate.css" rel="stylesheet" media="screen">
 <link rel="stylesheet" href="css/styles.css" />
+<link rel="stylesheet" href="css/custom.css" />
 <link href="font/css/font-awesome.min.css" rel="stylesheet">
 </head>
 
@@ -42,53 +43,55 @@
   <div class="banner-container">
     <div class="container">
       <div class="row">
-
-      <div class="heading text-center">
-          <h2>Nos Casamos!</h2>
-          <h1>Lu y Mai</h1>
-        <h3>3 de Diciembre de 2016, Ciudad de Buenos Aires</h3>
-        </div>
-          </div>
+        <img class="home-img" src="images/portada.svg" alt="Somos lu y may y nos casamos">
+      </div>
     </div>
   </div>
 </section>
 <section id="counter" >
-     <div class="container">
-         <div class="row">
-             <div class="col-md-12">
-             <div class="countdown styled"></div>
-                 </div>
-             </div>
-         </div>
+   <div class="countdown styled"></div>
 </section>
-<section id="events" class="page-section colord">
+<div class="div-naranja"></div>
+<section id="events" class="page-section">
   <div class="container">
     <div class="row">
       <!-- item -->
-      <div class="col-md-3 text-center"> <i class="fa fa-arrows fa-2x circle"></i>
-        <h3>CIVIL</h3>
+      <div class="col-md-3 text-center">
+        <div class="icon-circle">
+          <img src="images/civil.svg" alt="el civil">
+        </div>
+        <h3 class="title">Civil</h3>
         <p>Acá va la info del civil, que aún no hemos definido.</p>
         <p>Probablemente sea en Boedo, y luego de la ceremonia nos vamos todos a comer por ahí (hay un par de bodegones que se ponen :D)</p>
       </div>
       <!-- end: -->
 
       <!-- item -->
-      <div class="col-md-3 text-center"> <i class="fa fa-css3 fa-2x circle"></i>
-        <h3>IGLESIA</h3>
+      <div class="col-md-3 text-center">
+        <div class="icon-circle">
+          <img src="images/iglesia.svg" alt="la iglesia">
+        </div>
+        <h3 class="title">Iglesia</h3>
         <p>Nos casamos en la Iglesia Santa Cruz, en el barrio de Boedo. Si no sos religioso podés venir igual, nuestra idea es compartir con todos este momento tan importante.</p>
       </div>
       <!-- end: -->
 
       <!-- item -->
-      <div class="col-md-3 text-center"> <i class="fa fa-lightbulb-o fa-2x circle"></i>
-        <h3>FIESTA</h3>
+      <div class="col-md-3 text-center">
+        <div class="icon-circle">
+          <img src="images/fiesta.svg" alt="la fiesta">
+        </div>
+        <h3 class="title">Fiesta</h3>
         <p>Inmediatamente después de la ceremonia vamos todos en caravana para el salón. No te olvides de completar el RSVP así organizamos el carpooling para ir todos cómodos :)</p>
       </div>
       <!-- end: -->
 
       <!-- item -->
-      <div class="col-md-3 text-center"> <i class="fa fa-globe fa-2x circle"></i>
-        <h3>VIAJE<span class="id-color">Designing</span></h3>
+      <div class="col-md-3 text-center">
+        <div class="icon-circle">
+          <img src="images/regalos.svg" alt="regalos">
+        </div>
+        <h3 class="title">Viaje</h3>
         <p>Nos vamos de paseo en un auto lindo :D</p>
       </div>
       <!-- end:-->
@@ -99,32 +102,51 @@
 <section id="aboutUs">
   <div class="container">
     <div class="row feature design">
-      <div class="six columns right">
-        <h2>La Novia</h2>
+      <div class="col-md-8 columns right">
+        <h2 class="title">La Novia</h2>
         <p>Acá va un poquito de info de Maive. Licenciada en musicoterapia, su verdadera vocación está en la expresión artística no a través de la música sino mas bien desde el cuerpo, desde el movimiento. </p>
         <p>Odio quaeque reformidans est eu, expetendis intellegebat has ut, viderer invenire ut his. Has molestie percipit an. Falli volumus efficiantur sed id, ad vel noster propriae. Ius ut etiam vivendo, graeci iudicabit constituto at mea. No soleat fabulas prodesset vel, ut quo solum dicunt.
           Nec et amet vidisse mentitumsstie percipitoleat fabulas. </p>
       </div>
-      <div class="six columns feature-media left"> <img src="images/mai.jpg" alt=""> </div>
+      <div class="col-md-4 columns feature-media left">
+        <div class="frame">
+          <img src="images/mai.jpg" alt="">
+        </div>
+      </div>
     </div>
         <div class="row feature design">
-      <div class="six columns left">
-        <h2>El Novio</h2>
+      <div class="col-md-8 columns left">
+        <h2 class="title">El Novio</h2>
         <p>El pelado fachero ese, que bajó como 20kilos :D </p>
         <p>Odio quaeque reformidans est eu, expetendis intellegebat has ut, viderer invenire ut his. Has molestie percipit an. Falli volumus efficiantur sed id, ad vel noster propriae. Ius ut etiam vivendo, graeci iudicabit constituto at mea. No soleat fabulas prodesset vel, ut quo solum dicunt.
           Nec et amet vidisse mentitumsstie percipitoleat fabulas. </p>
       </div>
-      <div class="six columns feature-media right"> <img src="images/lu.jpg" alt=""> </div>
+      <div class="col-md-4 columns feature-media right">
+        <div class="frame">
+          <img src="images/lu.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="slide">
+  <!-- Para que hagas lo del slide de fotos que habia antes en la home -->
+  <div class="container">
+    <div class="row">
+      <div class="slide-container">
+        <div class="imagenes">
+          <img src="images/luymai3.jpg" alt="una foto">
+        </div>
+      </div>
     </div>
   </div>
 </section>
 <section id="contactUs" class="contact-parlex">
-  <div class="parlex-back">
     <div class="container">
       <div class="row">
         <div class="heading text-center">
           <!-- Heading -->
-          <h2>RSVP</h2>
+          <h2 class="title">RSVP</h2>
           <p>Por favor, completá este pequeño formulario así todos podemos disfrutar de la fiesta :)</p>
         </div>
       </div>
@@ -164,7 +186,6 @@
       </div>
     </div>
     <!--/.container-->
-  </div>
 </section>
 <footer>
   <div class="container">
