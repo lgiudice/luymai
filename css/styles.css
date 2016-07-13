@@ -1100,3 +1100,13 @@ nav#filter li {
 li.active a {
 color: #FED400;
 }
+
+#owl-demo .owl-item div{
+  padding:5px;
+	width: 100%;
+}
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}

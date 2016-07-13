@@ -84,10 +84,14 @@ var customScripts = {
   }
 }
 $('document').ready(function () {
+
   $("#owl-demo").owlCarousel({
-      autoPlay: 4000, //Set AutoPlay to 4 seconds
-      singleItem:true
+    autoPlay: 4000,
+    slideSpeed : 300,
+    paginationSpeed : 400,
+    singleItem:true
   });
+
   customScripts.init();
 	$('#events .col-md-3, #features, #aboutUs, #clients, #portfolio, #plans, #contactUs .parlex-back').css('opacity','0');
 	$( "#menuToggle" ).toggle(function() {
