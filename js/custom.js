@@ -86,8 +86,8 @@ var customScripts = {
 $('document').ready(function () {
 
   $("#owl-demo").owlCarousel({
-    autoPlay: 4000,
-    slideSpeed : 300,
+    autoPlay: 2000,
+    slideSpeed: 300,
     paginationSpeed : 400,
     singleItem:true
   });
