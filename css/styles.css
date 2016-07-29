@@ -756,6 +756,9 @@ img, video, iframe, embed, object {
 	overflow: hidden;
 	color: #F049B2;
 }
+#aboutUs .title{
+	padding-left: 32px;
+}
 #aboutUs p{
 color: #212C29;
 }
