@@ -154,12 +154,20 @@
 #contactUs{
   background-color: #F79421;
 }
-  #contactUs p{
-    color: #fff;
-  }
-  #contactUs .btn{
-    color: #709197 !important;
-  }
+#contactUs p{
+  color: #fff;
+}
+#contactUs .btn{
+  color: #709197 !important;
+}
+
+i{
+  color: #F79421;
+}		
+
+#top i{
+  color: #709197;
+}
 
 footer{
   border: none;
