@@ -1117,5 +1117,5 @@ color: #FED400;
 .form-rsvp iframe{
 	display:block;
   height: 900px;
-	width: 900px;
+	width: 100%;
 }
