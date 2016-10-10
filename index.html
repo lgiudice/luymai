@@ -268,7 +268,7 @@
               mapTypeId: google.maps.MapTypeId.ROADMAP
             }
             var map = new google.maps.Map(mapCanvas, mapOptions);
-            var marker = new google.maps.Marker({
+            marker = new google.maps.Marker({
               map: map,
               position: new google.maps.LatLng(-34.6213011, -58.409512199999995)
             });
@@ -290,14 +290,14 @@
           function ClubMap() {
             var mapCanvas = document.getElementById("club_map");
             var mapOptions = {
-              center: new google.maps.LatLng(-34.4177163, -58.60),
-              zoom: 12,
+              center: new google.maps.LatLng(-34.417716,-58.591977),
+              zoom: 14,
               mapTypeId: google.maps.MapTypeId.ROADMAP
             }
             var map = new google.maps.Map(mapCanvas, mapOptions);
             var marker = new google.maps.Marker({
               map: map,
-              position: new google.maps.LatLng(-34.4177163, -58.60)
+              position: new google.maps.LatLng(-34.417716,-58.591977)
             });
             infowindow = new google.maps.InfoWindow({
               content: "<b>Club Eco Sol</b><br/>Milberg 665<br/> Tigre"
