@@ -39,6 +39,7 @@
     <li><a href="#aboutUs" class="scroll-link">Sobre los novios</a></li>
     <li><a href="#slide" class="scroll-link">Fotos</a></li>
     <li><a href="#contactUs" class="scroll-link">RSVP</a></li>
+    <li><a href="#maps" class="scroll-link">Mapas</a></li>
   </ul>
 </nav>
 <!--/.header-->
@@ -81,7 +82,7 @@
         <p>
           Te invitamos a compartir con nosotros la celebración que se realizará el <strong>Sábado 3 de Diciembre</strong> en la
           <a href="https://es.wikipedia.org/wiki/Iglesia_de_la_Santa_Cruz_(San_Crist%C3%B3bal)">Iglesia de la Santa Cruz</a>,
-          ubicada en Estados Unidos 3119, San Cristóbal, a las 10.30 am.
+          ubicada en Estados Unidos 3119, San Cristóbal, a las 10.30 am (<a href="#maps">Ver Mapa</a>).
         </p>
         <p>
           Si no sos religioso, nosotros te invitamos igual. Nuestra idea es compartir
@@ -98,7 +99,7 @@
         <h3 class="title">Fiesta</h3>
         <p>
           Inmediatamente después de la ceremonia vamos todos en caravana hacia el
-          <strong>Club Eco Sol (Milberg 665, Tigre)</strong> a almorzar y pasar la tarde festejando.
+          <strong>Club Eco Sol (Milberg 665, Tigre)</strong> a almorzar y pasar la tarde festejando (<a href="#maps">Ver Mapa</a>).
           Como hay un parque grande, vení con ropa linda, pero que te permita jugar y divertirte.
         </p>
         <p>
@@ -249,6 +250,69 @@
     </div>
     <!--/.container-->
 </section>
+
+<section id="maps" class="page-section">
+  <div class="container">
+    <div class="row">
+      <!-- item -->
+      <div class="col-md-6 text-center">
+        <h3 class="title">Iglesia</h3>
+        <div class="frame">
+          <div id="church_map" style="width:100%;height:500px"></div>
+          <script>
+          function myMap() {
+            var mapCanvas = document.getElementById("church_map");
+            var mapOptions = {
+              center: new google.maps.LatLng(-34.62, -58.41),
+              zoom: 14,
+              mapTypeId: google.maps.MapTypeId.ROADMAP
+            }
+            var map = new google.maps.Map(mapCanvas, mapOptions);
+            var marker = new google.maps.Marker({
+              map: map,
+              position: new google.maps.LatLng(-34.6213011, -58.409512199999995)
+            });
+            infowindow = new google.maps.InfoWindow({
+              content: "<b>Santa Cruz</b><br/>Estados Unidos 3119<br/> Buenos Aires"
+            });
+            infowindow.open(map, marker);
+          }
+          </script>
+          <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+        </div>
+      </div>
+
+      <div class="col-md-6 text-center">
+        <h3 class="title">Fiesta</h3>
+        <div class="frame">
+        <div id="club_map" style="width:100%;height:500px"></div>
+          <script>
+          function myMap() {
+            var mapCanvas = document.getElementById("club_map");
+            var mapOptions = {
+              center: new google.maps.LatLng(-34.4177163, -58.60),
+              zoom: 12,
+              mapTypeId: google.maps.MapTypeId.ROADMAP
+            }
+            var map = new google.maps.Map(mapCanvas, mapOptions);
+            var marker = new google.maps.Marker({
+              map: map,
+              position: new google.maps.LatLng(-34.4177163, -58.60)
+            });
+            infowindow = new google.maps.InfoWindow({
+              content: "<b>Club Eco Sol</b><br/>Milberg 665<br/> Tigre"
+            });
+            infowindow.open(map, marker);
+          }
+          </script>
+          <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--/.container-->
+</section>
+
 <footer>
   <div class="container">
     <div class="social text-center">
