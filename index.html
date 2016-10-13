@@ -123,6 +123,8 @@
         </p>
         <p><strong>
           Lucas Giudice<br/>
+          Banco HSBC<br/>
+          CUENTA: 309-6-03348-6<br/>
           CBU: 15003090-00030960334864<br/>
           CUIL: 20-32318684-8
         </strong></p>
@@ -268,11 +270,11 @@
               mapTypeId: google.maps.MapTypeId.ROADMAP
             }
             var map = new google.maps.Map(mapCanvas, mapOptions);
-            marker = new google.maps.Marker({
+            var marker = new google.maps.Marker({
               map: map,
               position: new google.maps.LatLng(-34.6213011, -58.409512199999995)
             });
-            infowindow = new google.maps.InfoWindow({
+            var infowindow = new google.maps.InfoWindow({
               content: "<b>Santa Cruz</b><br/>Estados Unidos 3119<br/> Buenos Aires"
             });
             infowindow.open(map, marker);
