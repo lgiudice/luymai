@@ -23,6 +23,10 @@
 <link rel="stylesheet" href="css/bootstrap.min.css" />
 <link href="css/animate.css" rel="stylesheet" media="screen">
 <link rel="stylesheet" href="css/styles.css" />
+<link rel="stylesheet" href="css/custom.css" />
+<link rel="stylesheet" href="css/owl.carousel.css" />
+<link rel="stylesheet" href="css/owl.theme.css" />
+<link rel="stylesheet" href="css/owl.transitions.css" />
 <link href="font/css/font-awesome.min.css" rel="stylesheet">
 </head>
 
@@ -33,7 +37,9 @@
     <li class="active" id="firstLink"><a href="#home" class="scroll-link">Inicio</a></li>
     <li><a href="#events" class="scroll-link">Eventos</a></li>
     <li><a href="#aboutUs" class="scroll-link">Sobre los novios</a></li>
+    <li><a href="#slide" class="scroll-link">Fotos</a></li>
     <li><a href="#contactUs" class="scroll-link">RSVP</a></li>
+    <li><a href="#maps" class="scroll-link">Mapas</a></li>
   </ul>
 </nav>
 <!--/.header-->
@@ -42,54 +48,86 @@
   <div class="banner-container">
     <div class="container">
       <div class="row">
-
-      <div class="heading text-center">
-          <h2>Nos Casamos!</h2>
-          <h1>Lu y Mai</h1>
-        <h3>3 de Diciembre de 2016, Ciudad de Buenos Aires</h3>
-        </div>
-          </div>
+        <img class="home-img" src="images/portada.svg" alt="Somos lu y may y nos casamos">
+      </div>
     </div>
   </div>
 </section>
 <section id="counter" >
-     <div class="container">
-         <div class="row">
-             <div class="col-md-12">
-             <div class="countdown styled"></div>
-                 </div>
-             </div>
-         </div>
+   <div class="countdown styled"></div>
 </section>
-<section id="events" class="page-section colord">
+<div class="div-naranja"></div>
+<section id="events" class="page-section">
   <div class="container">
     <div class="row">
       <!-- item -->
-      <div class="col-md-3 text-center"> <i class="fa fa-arrows fa-2x circle"></i>
-        <h3>CIVIL</h3>
-        <p>Acá va la info del civil, que aún no hemos definido.</p>
-        <p>Probablemente sea en Boedo, y luego de la ceremonia nos vamos todos a comer por ahí (hay un par de bodegones que se ponen :D)</p>
+      <div class="col-md-3 text-center">
+        <div class="icon-circle">
+          <img src="images/civil.svg" alt="el civil">
+        </div>
+        <h3 class="title">Civil</h3>
+        <p>
+          Será el <strong>Jueves 1 de Diciembre</strong> en la <a href="http://www.buenosaires.gob.ar/comuna-5/sede-comunal-5">Sede Comunal 5</a>
+          (Carlos Calvo 3307, Almagro, C.A.B.A.), a las 12 del mediodía.</p>
+        <p>Después de eso, nos juntamos a brindar y compartir todos juntos por ahí.</p>
       </div>
       <!-- end: -->
 
       <!-- item -->
-      <div class="col-md-3 text-center"> <i class="fa fa-css3 fa-2x circle"></i>
-        <h3>IGLESIA</h3>
-        <p>Nos casamos en la Iglesia Santa Cruz, en el barrio de Boedo. Si no sos religioso podés venir igual, nuestra idea es compartir con todos este momento tan importante.</p>
+      <div class="col-md-3 text-center">
+        <div class="icon-circle">
+          <img src="images/iglesia.svg" alt="la iglesia">
+        </div>
+        <h3 class="title">Iglesia</h3>
+        <p>
+          Te invitamos a compartir con nosotros la celebración que se realizará el <strong>Sábado 3 de Diciembre</strong> en la
+          <a href="https://es.wikipedia.org/wiki/Iglesia_de_la_Santa_Cruz_(San_Crist%C3%B3bal)">Iglesia de la Santa Cruz</a>,
+          ubicada en Estados Unidos 3119, San Cristóbal, a las 10.30 am (<a href="#maps">Ver Mapa</a>).
+        </p>
+        <p>
+          Si no sos religioso, nosotros te invitamos igual. Nuestra idea es compartir
+          este momento tan importante con todos los que nos acompañaron y acompañan en este camino.
+        </p>
       </div>
       <!-- end: -->
 
       <!-- item -->
-      <div class="col-md-3 text-center"> <i class="fa fa-lightbulb-o fa-2x circle"></i>
-        <h3>FIESTA</h3>
-        <p>Inmediatamente después de la ceremonia vamos todos en caravana para el salón. No te olvides de completar el RSVP así organizamos el carpooling para ir todos cómodos :)</p>
+      <div class="col-md-3 text-center">
+        <div class="icon-circle">
+          <img src="images/fiesta.svg" alt="la fiesta">
+        </div>
+        <h3 class="title">Fiesta</h3>
+        <p>
+          Inmediatamente después de la ceremonia vamos todos en caravana hacia el
+          <strong>Club Eco Sol (Milberg 665, Tigre)</strong> a almorzar y pasar la tarde festejando (<a href="#maps">Ver Mapa</a>).
+          Como hay un parque grande, vení con ropa linda, pero que te permita jugar y divertirte.
+        </p>
+        <p>
+          No te olvides de completar el <a href="#contactUs">RSVP</a> así organizamos
+          medio de transporte para todos y todas.
+        </p>
       </div>
       <!-- end: -->
 
       <!-- item -->
-      <div class="col-md-3 text-center"> <i class="fa fa-globe fa-2x circle"></i>
-        <h3>VIAJE<span class="id-color">Designing</span></h3>
-        <p>Nos vamos de paseo en un auto lindo :D</p>
+      <div class="col-md-3 text-center">
+        <div class="icon-circle">
+          <img src="images/regalos.svg" alt="regalos">
+        </div>
+        <h3 class="title">Viaje</h3>
+        <p>
+          Hace varios años que transitamos juntos este camino. En este tiempo fuimos juntando
+          todas las cosas necesarias para vivir cómodamente.<br/>
+          Es por esto por lo que no pedimos nada en particular a modo de regalo, pero, si tenés
+          ganas de colaborar, podés hacerlo con nuestro viaje.
+        </p>
+        <p><strong>
+          Lucas Giudice<br/>
+          Banco HSBC<br/>
+          CUENTA: 309-6-03348-6<br/>
+          CBU: 15003090-00030960334864<br/>
+          CUIL: 20-32318684-8
+        </strong></p>
       </div>
       <!-- end:-->
     </div>
@@ -99,81 +137,190 @@
 <section id="aboutUs">
   <div class="container">
     <div class="row feature design">
-      <div class="six columns right">
-        <h2>La Novia</h2>
-        <p>Acá va un poquito de info de Maive. Licenciada en musicoterapia, su verdadera vocación está en la expresión artística no a través de la música sino mas bien desde el cuerpo, desde el movimiento. </p>
-        <p>Odio quaeque reformidans est eu, expetendis intellegebat has ut, viderer invenire ut his. Has molestie percipit an. Falli volumus efficiantur sed id, ad vel noster propriae. Ius ut etiam vivendo, graeci iudicabit constituto at mea. No soleat fabulas prodesset vel, ut quo solum dicunt.
-          Nec et amet vidisse mentitumsstie percipitoleat fabulas. </p>
+      <h2 class="title">La Novia</h2>
+      <div class="col-md-8 columns right">
+        <p>
+          Nacida y crecida en la Ciudad de Neuquén, expresó su pasión por el arte desde pequeña, cuando,
+          acompañada por su papá, cantaba los clásicos de Litto Nebbia, el Flaco Spinetta y los Beatles.
+          Comenzó a profundizar su camino en el terreno musical estudiando piano, a la tierna(?) edad de 8 años.
+          La música, más allá del interés despertado, no cubría la <em>dosis artística</em> que ella necesitaba,
+          por lo que complementó este espacio con distintas actividades plásticas y de expresión corporal,
+          destacándose en las danzas.
+        </p>
+        <p>
+          A los 18 llegó a Buenos Aires decidida a hacer carrera en el mundo del baile. Pero la vida y el azar,
+          a veces, empujan hacia lugares diferentes. Así decidió encauzar sus años de estudios musicales a través
+          de la Musicoterapia, carrera de la que finalmente se recibió. Actualmente se desempeña como docente,
+          mientras busca nuevos horizontes artísticos por medio de la Comedia Musical.
+        </p>
+        <p>
+          En el camino, llegó a las Victorias, a través del amigo de un amigo, donde conoció a un pelado insoportable,
+          que terminó conquistando su corazón (awwwww~~~~).
+        </p>
       </div>
-      <div class="six columns feature-media left"> <img src="images/mai.jpg" alt=""> </div>
+      <div class="col-md-4 columns feature-media left">
+        <div class="frame">
+          <img src="images/mai.jpg" alt="Maive">
+        </div>
+      </div>
     </div>
-        <div class="row feature design">
-      <div class="six columns left">
-        <h2>El Novio</h2>
-        <p>El pelado fachero ese, que bajó como 20kilos :D </p>
-        <p>Odio quaeque reformidans est eu, expetendis intellegebat has ut, viderer invenire ut his. Has molestie percipit an. Falli volumus efficiantur sed id, ad vel noster propriae. Ius ut etiam vivendo, graeci iudicabit constituto at mea. No soleat fabulas prodesset vel, ut quo solum dicunt.
-          Nec et amet vidisse mentitumsstie percipitoleat fabulas. </p>
+    <div class="row feature design">
+      <h2 class="title">El Novio</h2>
+      <div class="col-md-8 columns left">
+        <p>
+          Programador, artista y, actualmente, deportista (o algo así).
+        </p>
+        <p>
+          Nació en la Ciudad de Buenos Aires, en el año de Argentina Campeón del Mundo por 2da vez.
+          Ya desde chiquito, se dedicaba a buscar el por qué y el cómo de las cosas, desarmando todo
+          lo que caía en sus manos para ver cómo estaba hecho (en particular desarmaba cassettes,
+          porque quería ver de dónde salía la música).
+
+          Este camino de trabajo manual lo llevó a la escuela técnica donde, además de jugar al Rugby,
+          descubrió la informática, disciplina en la que terminó haciendo carrera.
+        </p>
+        <p>
+          Un poco por casualidad terminó llegando a las Victorias, lugar que casi se convirtió
+          en su segunda casa, donde realizó distintas actividades, destacando aquellas destinadas
+          a servir a los demás y descubriendo el amor por la guitarra.
+        </p>
+        <p>
+          Fue allí donde, un viernes cualquiera, un amigo cayó con una morocha que se partía sola
+          (que resultó castaña) y con la que, después de muchas idas y vueltas (moooooooooochas),
+          terminó construyendo su vida.
+        </p>
       </div>
-      <div class="six columns feature-media right"> <img src="images/lu.jpg" alt=""> </div>
+      <div class="col-md-4 columns feature-media right">
+        <div class="frame">
+          <img src="images/lu.jpg" alt="Lucas">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="slide">
+  <div class="container">
+    <div class="row">
+      <div class="span12">
+        <div class="imagenes">
+          <div id="owl-demo"  class="owl-carousel owl-theme">
+            <div class="item"><img src="images/carousel/pic00001.jpg"></div>
+            <div class="item"><img src="images/carousel/pic00034.jpg"></div>
+            <div class="item"><img src="images/carousel/pic00002.jpg"></div>
+            <div class="item"><img src="images/carousel/pic00004.jpg"></div>
+            <div class="item"><img src="images/carousel/pic00006.jpg"></div>
+            <div class="item"><img src="images/carousel/pic00007.jpg"></div>
+            <div class="item"><img src="images/carousel/pic00009.jpg"></div>
+            <div class="item"><img src="images/carousel/pic00010.jpg"></div>
+            <div class="item"><img src="images/carousel/pic00011.jpg"></div>
+            <div class="item"><img src="images/carousel/pic00003.jpg"></div>
+            <div class="item"><img src="images/carousel/pic00014.jpg"></div>
+            <div class="item"><img src="images/carousel/pic00015.jpg"></div>
+            <div class="item"><img src="images/carousel/pic00026.jpg"></div>
+            <div class="item"><img src="images/carousel/pic00016.jpg"></div>
+            <div class="item"><img src="images/carousel/pic00005.jpg"></div>
+            <div class="item"><img src="images/carousel/pic00017.jpg"></div>
+            <div class="item"><img src="images/carousel/pic00019.jpg"></div>
+            <div class="item"><img src="images/carousel/pic00018.jpg"></div>
+            <div class="item"><img src="images/carousel/pic00008.jpg"></div>
+            <div class="item"><img src="images/carousel/pic00012.jpg"></div>
+            <div class="item"><img src="images/carousel/pic00021.jpg"></div>
+            <div class="item"><img src="images/carousel/pic00022.jpg"></div>
+            <div class="item"><img src="images/carousel/pic00023.jpg"></div>
+            <div class="item"><img src="images/carousel/pic00024.jpg"></div>
+            <div class="item"><img src="images/carousel/pic00013.jpg"></div>
+            <div class="item"><img src="images/carousel/pic00025.jpg"></div>
+            <div class="item"><img src="images/carousel/pic00027.jpg"></div>
+            <div class="item"><img src="images/carousel/pic00028.jpg"></div>
+            <div class="item"><img src="images/carousel/pic00029.jpg"></div>
+            <div class="item"><img src="images/carousel/pic00030.jpg"></div>
+            <div class="item"><img src="images/carousel/pic00031.jpg"></div>
+            <div class="item"><img src="images/carousel/pic00032.jpg"></div>
+            <div class="item"><img src="images/carousel/pic00020.jpg"></div>
+            <div class="item"><img src="images/carousel/pic00033.jpg"></div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
 <section id="contactUs" class="contact-parlex">
-  <div class="parlex-back">
-    <div class="container">
-      <div class="row">
-        <div class="heading text-center">
-          <!-- Heading -->
-          <h2>RSVP</h2>
-          <p>Por favor, completá este pequeño formulario así todos podemos disfrutar de la fiesta :)</p>
-        </div>
-      </div>
-      <div class="row mrgn30">
-          <div class="col-sm-12 col-md-offset-2 col-md-8">
-			<!--NOTE: Update your email Id in "contact_me.php" file in order to receive emails from your contact form-->
-			<form name="sentMessage" id="contactForm" novalidate>
-			<div class="control-group">
-			<div class="controls">
-  			<input type="text" class="form-control"
-  			  placeholder="Nombre Completo" id="name" required
-  			  data-validation-required-message="Por favor, ingresá tu nombre" />
-  			<p class="help-block"></p>
-			</div>
-			</div>
-  			<div class="control-group">
-  			<div class="controls">
-  			<input type="email" class="form-control" placeholder="Email"
-  			id="email" required
-  			data-validation-required-message="Email" />
-  			</div>
-			</div>
-
-			<div class="control-group">
-			<div class="controls">
-			<textarea rows="10" cols="100" class="form-control"
-			placeholder="" id="message" required
-			data-validation-required-message="Please enter your message" minlength="5"
-			data-validation-minlength-message="Min 5 characters"
-			maxlength="999" style="resize:none"></textarea>
-			</div>
-			</div>
-			<div id="success"> </div> <!-- For success/fail messages -->
-			<button type="submit" class="btn btn-primary pull-right">Send</button><br />
-		</form>
-          </div>
-      </div>
+      <div class="form-rsvp">
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfaOKfrLn7DeD04Hijjl2P5DaX-N9z3GpQGLwkgb7ki-2Ls7w/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">
+          Cargando el formulario...
+        </iframe>
     </div>
     <!--/.container-->
-  </div>
 </section>
+
+<section id="maps" class="page-section">
+  <div class="container">
+    <div class="row">
+      <!-- item -->
+      <div class="col-md-6 text-center">
+        <h3 class="title">Iglesia</h3>
+        <div class="frame">
+          <div id="church_map" style="width:100%;height:500px"></div>
+          <script>
+          function churchMap() {
+            var mapCanvas = document.getElementById("church_map");
+            var mapOptions = {
+              center: new google.maps.LatLng(-34.62, -58.41),
+              zoom: 14,
+              mapTypeId: google.maps.MapTypeId.ROADMAP
+            }
+            var map = new google.maps.Map(mapCanvas, mapOptions);
+            var marker = new google.maps.Marker({
+              map: map,
+              position: new google.maps.LatLng(-34.6213011, -58.409512199999995)
+            });
+            var infowindow = new google.maps.InfoWindow({
+              content: "<b>Santa Cruz</b><br/>Estados Unidos 3119<br/> Buenos Aires"
+            });
+            infowindow.open(map, marker);
+          }
+          </script>
+          <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB_7D3qPzDJaXlTf5Xl_w7YMho4R4RExK4&callback=churchMap"></script>
+        </div>
+      </div>
+
+      <div class="col-md-6 text-center">
+        <h3 class="title">Fiesta</h3>
+        <div class="frame">
+        <div id="club_map" style="width:100%;height:500px"></div>
+          <script>
+          function ClubMap() {
+            var mapCanvas = document.getElementById("club_map");
+            var mapOptions = {
+              center: new google.maps.LatLng(-34.417716,-58.591977),
+              zoom: 14,
+              mapTypeId: google.maps.MapTypeId.ROADMAP
+            }
+            var map = new google.maps.Map(mapCanvas, mapOptions);
+            var marker = new google.maps.Marker({
+              map: map,
+              position: new google.maps.LatLng(-34.417716,-58.591977)
+            });
+            infowindow = new google.maps.InfoWindow({
+              content: "<b>Club Eco Sol</b><br/>Milberg 665<br/> Tigre"
+            });
+            infowindow.open(map, marker);
+          }
+          </script>
+          <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB_7D3qPzDJaXlTf5Xl_w7YMho4R4RExK4&callback=ClubMap"></script>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--/.container-->
+</section>
+
 <footer>
   <div class="container">
     <div class="social text-center">
-      <a href="#"><i class="fa fa-twitter"></i></a>
-      <a href="#"><i class="fa fa-facebook"></i></a>
-      <a href="#"><i class="fa fa-dribbble"></i></a>
-      <a href="#"><i class="fa fa-flickr"></i></a>
-      <a href="#"><i class="fa fa-github"></i></a>
+      <a href="http://ctt.ec/1cB16" target="_blank"><i class="fa fa-twitter"></i></a>
+      <a href="https://www.facebook.com/events/271706736519185/" target="_blank"><i class="fa fa-facebook"></i></a>
+      <a href="mailto:contacto@luymai.com"><i class="fa fa-envelope"></i></a>
     </div>
     <div class="clear"></div>
     <!--CLEAR FLOATS-->
@@ -188,10 +335,10 @@
 <script src="js/bootstrap.min.js" type="text/javascript"></script>
 <script src="js/jquery.nav.js" type="text/javascript"></script>
 <script src="js/waypoints.js"></script>
-<script src="js/Backstretch.js" type="text/javascript"></script>
- <script src="contact/jqBootstrapValidation.js"></script>
- <script src="contact/contact_me.js"></script>
+<script src="js/owl.carousel.min.js" type="text/javascript"></script>
+<script src="contact/jqBootstrapValidation.js"></script>
+<script src="contact/contact_me.js"></script>
 <script src="js/custom.js" type="text/javascript"></script>
-<script type="text/javascript" src="js/jquery.countdown.js"></script>
+<script src="js/jquery.countdown.js" type="text/javascript"></script>
 </body>
 </html>

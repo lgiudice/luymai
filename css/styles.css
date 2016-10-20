@@ -1,5 +1,5 @@
-/* 
-Author URI: http://webthemez.com/ 
+/*
+Author URI: http://webthemez.com/
 Donate to remove backlink form the template.
 */
 
@@ -111,7 +111,7 @@ h1, h2, h3, h4, h5, h6, #home .heading strong {
 	background: rgba(255,255,255,0.35);
 }
 a {
-	color: #DBFB4A;
+	color: #F79421;
 	text-decoration: none;
 	text-shadow: none;
 	-webkit-transition: all 0.2s linear;
@@ -422,7 +422,7 @@ h2, .h2 {
 	color: #888;
 }
 /*home*/
-#home .heading { 
+#home .heading {
 	margin-top: 18%;
 }
 #home .heading h2 {
@@ -434,7 +434,7 @@ h2, .h2 {
 	font-size: 30px;
 	font-weight: normal;
 }
-#home .heading h1 { 
+#home .heading h1 {
 	font-size: 84px !important;
     font-family: 'Pacifico', cursive;
     color:#000;
@@ -447,11 +447,11 @@ h2, .h2 {
 	font-size: 34px !important;
 }
 #home .heading h3 {
-	color: #000; 
+	color: #000;
 	font-size: 24px !important;
 	font-weight: bold;
 }
-/* Header 
+/* Header
 ----------------------------------------------*/
 #section-top {
 	background: #4E4E4E;
@@ -500,7 +500,7 @@ h2, .h2 {
 }
 .navbar-inverse .navbar-toggle .icon-bar {
 /*background-color: #FFD500;*/
- 
+
 }
 .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
 	background: #FFD500;
@@ -527,7 +527,7 @@ h2, .h2 {
 	text-shadow: 0px 1px 2px rgba(0, 0, 0, .2);
 }
 /*.carousel-inner*/
- 
+
 .actionPanel {
 	padding: 25px 0;
 	background: #FFD500;
@@ -713,7 +713,7 @@ a.arrow-link:hover {
 	padding: 3px 10px;
 	padding-bottom: 15px;
 	margin-bottom: 30px;
-	display: block; 
+	display: block;
 }
 .pdingBtm30 {
 	padding-bottom: 30px;
@@ -722,7 +722,7 @@ img, video, iframe, embed, object {
 	max-width: 100%;
 	height: auto;
 }
-/*  
+/*
     -------------------------------------------------*/
 #features h2 {
 }
@@ -755,6 +755,9 @@ img, video, iframe, embed, object {
 	padding-bottom: 25px;
 	overflow: hidden;
 	color: #F049B2;
+}
+#aboutUs .title{
+	padding-left: 32px;
 }
 #aboutUs p{
 color: #212C29;
@@ -790,7 +793,7 @@ color: #212C29;
 .row .six {
 	width: 50%;
 }
-/*  
+/*
     -------------------------------------------------*/
 .grid .text-content {
 	padding-left: 35%;
@@ -823,7 +826,7 @@ color: #212C29;
 #contactUs .btn {
 	border-radius: 0px !important;
 	border: 0px !important;
-	background: #DCFC4B; 
+	background: #DCFC4B;
 }
 nav#filter {
 	margin-bottom: 1.5em;
@@ -1018,7 +1021,7 @@ line-height: 28px;
 .styled div {
 	display: inline-block;
 	margin-left: 10px;
-	font-size: 28px; 
+	font-size: 28px;
 width: 119px;
 height: 119px;
 margin: 5px;
@@ -1099,4 +1102,20 @@ nav#filter li {
 }
 li.active a {
 color: #FED400;
+}
+
+#owl-demo .owl-item div{
+  padding:5px;
+	width: 100%;
+}
+#owl-demo .item img{
+    display: block;
+    height: auto;
+		margin: auto;
+}
+
+.form-rsvp iframe{
+	display:block;
+  height: 1380px;
+	width: 100%;
 }
